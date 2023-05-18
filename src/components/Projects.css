@@ -1,0 +1,91 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .bio {
+    margin-left: 20px;
+    font-weight: bold;
+    color:antiquewhite;
+    font-size: 20px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .projects-heading {
+    margin-top: 0;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#666;
+    box-shadow: 0 2px 4px rgba(199, 183, 183, 0.1);
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  /* Modifier les styles d'écriture et de police */
+  
+  
+  
+  h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #666;
+  }
+  

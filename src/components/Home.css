@@ -1,0 +1,41 @@
+.container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 20px;
+  }
+
+  .portfolio-info {
+    margin-left: 20px;
+  }
+  
+  .portfolio-info h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-info .name {
+    color: #4D3FEA;
+  }
+  
+  .portfolio-info h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-info p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+
+  

@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Couleur de fond du Navbar */
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    /* Styles pour le logo */
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #000000; /* Couleur du texte du menu */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu li a:hover {
+    color: #ff0000; /* Couleur du texte du menu au survol */
+  }
+  
+  .navbar-menu li a.active {
+    font-weight: bold;
+  }
+  
