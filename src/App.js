@@ -7,7 +7,8 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import { Link } from 'react-scroll';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,76 +17,7 @@ function App() {
         <ParticlesBgHome />
       </div>
 
-      <nav className="navbar">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Education
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Projects
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Skills
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
 
       <div className="content-container">
         <section id="home">
@@ -106,7 +38,9 @@ function App() {
         <section id="contact">
           <Contact />
         </section>
+        <Footer/>
       </div>
+
     </div>
   );
 }

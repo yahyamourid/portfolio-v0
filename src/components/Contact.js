@@ -19,8 +19,6 @@ const Contact = () => {
       <div className="contact-info">
         <p>Téléphone:  (+212) 6 14 38 36 34</p>
         <p>Diar Alia A2, El jadida</p>
-        <br/>
-        <p>Created by Yahya Mourid</p>
       </div>
     </div>
   );
